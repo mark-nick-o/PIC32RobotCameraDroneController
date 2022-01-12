@@ -1,0 +1,731 @@
+0	1	mikroCPIC32.exe -MSF -DBG -pP32MX795F512L -RA -C -Y -DL -EBASE 0x9FC01000 -INTDEF MV_SRS7_IS32 -O1111110-1 -fo80 -N"C:\code back\GCPIC32mx 29102020-1\GCPIC32mx\GCPICMX32.mcp32" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -SP"C:\code back\GCPIC32mx 29102020-1\GCPIC32mx\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Packages\Network_Ethernet_PIC32\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -IP"C:\code back\GCPIC32mx 29102020-1\GCPIC32mx\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Packages\Network_Ethernet_PIC32\Uses\" "GCPICMX32.c" "gc_events.c" "InteruptServices.c" "SBGC_cmd_helpers.c" "crc.c" "lwNx.c" "frozen.c" "dali_encode.c" "canon.c" "cb0r.c" "yxml.c" "encoders.c" "msgpk_object.c" "canbus_funcs.c" "USBdscJRT.c" "LSM303D.c" "bldc.c" "mmc_file_handler.c" "Actisense_NGT1.c" "cpu_endian_defs.c" "nvFlash.c" "ntp.c" "CAN_J1939.c" "XTCalls_Proto.c" "protobuf_c.c" "filter_types.c" "cyrf6936.c" "nelder_mead.c" "OSC_packet.c" "naive_bayes.c" "random_forest.c" "LogisticRegression.c" "SdA.c" "LinearRegression.c" "quadrotor.c" "univariate_smooth.c" "vn100.c" "cognex.c" "levenburg_marquardt.c" "ethernet_ip.c" "kawasaki.c" "morton.c" "cage_gen_evo.c" "mikroKop_Capacity.c" "least_squares.c" "__Lib_CP0.emcl" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_System.emcl" "__Lib_SoftResetDma.emcl" "__Lib_Delays.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_CMath.emcl" "__Lib_MemManager.emcl" "__Lib_Conversions.emcl" "__Lib_Sprintf.emcl" "__Lib_ADC.emcl" "__Lib_FLASH.emcl" "__Lib_I2C_12345.emcl" "__Lib_PWM.emcl" "__Lib_SPI_1234.emcl" "__Lib_UART_123456.emcl" "__Lib_CAN_12.emcl" "__Lib_USB.emcl" "__Lib_Mmc.emcl" "__Lib_MmcFat16.emcl" "__Lib_MmcFat16Constants.emcl" "__Lib_RS485.emcl" "__Lib_BitReverseComplex.emcl" "__Lib_FFT.emcl" "__Lib_FirRadix.emcl" "__Lib_IirRadix.emcl" "__Lib_TwiddleFactors.emcl" "__Lib_NetEthInternal.emcl" "__Lib_NetEthInternal_Defs.emcl"	 
+diagnostics: 0	122	Compilation Started	P32MX795F512L.c
+diagnostics: 39364	123	Compiled Successfully	P32MX795F512L.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 176	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__Lib_MemManager.c
+diagnostics: 299	123	Compiled Successfully	__Lib_MemManager.c
+diagnostics: 0	122	Compilation Started	__lib_mmcfat16.h
+diagnostics: 71	123	Compiled Successfully	__Lib_MmcFat16Constants.c
+diagnostics: 0	122	Compilation Started	__netethinternal.h
+diagnostics: 16	123	Compiled Successfully	__Lib_NetEthInternal_Defs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 6167	1163	Variable 'i' has been declared, but not used	comgs.h
+hint: 7123	1163	Variable 'xM' has been declared, but not used	comgs.h
+hint: 7123	1163	Variable 'yM' has been declared, but not used	comgs.h
+hint: 7123	1163	Variable 'zM' has been declared, but not used	comgs.h
+hint: 7282	1163	Variable 'd' has been declared, but not used	comgs.h
+hint: 8914	1163	Variable 'points_dist' has been declared, but not used	comgs.h
+hint: 15045	1163	Variable 'safeSin1' has been declared, but not used	comgs.h
+hint: 15045	1163	Variable 'safeSin2' has been declared, but not used	comgs.h
+hint: 15543	1163	Variable 'transLation' has been declared, but not used	comgs.h
+hint: 15592	1163	Variable 'transLation' has been declared, but not used	comgs.h
+hint: 15773	1163	Variable 's' has been declared, but not used	comgs.h
+hint: 15773	1163	Variable 'c' has been declared, but not used	comgs.h
+hint: 15773	1163	Variable 'tau' has been declared, but not used	comgs.h
+hint: 15773	1163	Variable 'calpha' has been declared, but not used	comgs.h
+hint: 15773	1163	Variable 'salpha' has been declared, but not used	comgs.h
+hint: 15773	1163	Variable 'ctau' has been declared, but not used	comgs.h
+hint: 1690	1163	Variable 'minColor' has been declared, but not used	colorhelper.h
+hint: 1690	1163	Variable 'maxColor' has been declared, but not used	colorhelper.h
+hint: 1690	1163	Variable 'cosVal' has been declared, but not used	colorhelper.h
+hint: 1690	1163	Variable 'radiance' has been declared, but not used	colorhelper.h
+hint: 1977	1163	Variable 'k' has been declared, but not used	colorhelper.h
+hint: 1977	1163	Variable 't' has been declared, but not used	colorhelper.h
+hint: 1977	1163	Variable 'count' has been declared, but not used	colorhelper.h
+hint: 1977	1163	Variable 'threshold' has been declared, but not used	colorhelper.h
+hint: 1979	1163	Variable 'wt_fg' has been declared, but not used	colorhelper.h
+hint: 1979	1163	Variable 'mean_fg' has been declared, but not used	colorhelper.h
+hint: 1979	1163	Variable 'var_fg' has been declared, but not used	colorhelper.h
+hint: 1980	1163	Variable 'thes' has been declared, but not used	colorhelper.h
+hint: 1980	1163	Variable 'temp' has been declared, but not used	colorhelper.h
+hint: 2017	1163	Variable 'wt_bg' has been declared, but not used	colorhelper.h
+hint: 2017	1163	Variable 'mean_bg' has been declared, but not used	colorhelper.h
+hint: 2018	1163	Variable 'wt_fg' has been declared, but not used	colorhelper.h
+hint: 2018	1163	Variable 'mean_fg' has been declared, but not used	colorhelper.h
+hint: 2799	1163	Variable 'color' has been declared, but not used	colorhelper.h
+hint: 6020	1163	Variable 'test' has been declared, but not used	colorhelper.h
+warning: 356	1505	Suspicious pointer conversion	mavlink2_protocol.h
+diagnostics: 11207	123	Compiled Successfully	GCPICMX32.c
+hint: 3208	1164	Variable 'halfx' has been eliminated by optimizer	GCPICMX32.c
+hint: 3267	1164	Variable 'windVelocity' has been eliminated by optimizer	GCPICMX32.c
+hint: 3828	1164	Variable 'mag' has been eliminated by optimizer	GCPICMX32.c
+hint: 4646	1164	Variable 'posUpdPeriodSec' has been eliminated by optimizer	GCPICMX32.c
+hint: 6074	1164	Variable 'T3' has been eliminated by optimizer	GCPICMX32.c
+hint: 6925	1164	Variable 'tmp_int' has been eliminated by optimizer	GCPICMX32.c
+hint: 6969	1164	Variable 'tmp_long2' has been eliminated by optimizer	GCPICMX32.c
+hint: 7007	1164	Variable 'cl' has been eliminated by optimizer	GCPICMX32.c
+hint: 7007	1164	Variable 'sl' has been eliminated by optimizer	GCPICMX32.c
+hint: 7040	1164	Variable 'cl' has been eliminated by optimizer	GCPICMX32.c
+hint: 7040	1164	Variable 'sl' has been eliminated by optimizer	GCPICMX32.c
+hint: 7280	1164	Variable 'a' has been eliminated by optimizer	GCPICMX32.c
+hint: 7281	1164	Variable 'b' has been eliminated by optimizer	GCPICMX32.c
+hint: 7682	1164	Variable 't18' has been eliminated by optimizer	GCPICMX32.c
+hint: 7682	1164	Variable 't21' has been eliminated by optimizer	GCPICMX32.c
+hint: 7826	1164	Variable 't9' has been eliminated by optimizer	GCPICMX32.c
+hint: 8116	1164	Variable 'mz2' has been eliminated by optimizer	GCPICMX32.c
+hint: 8915	1164	Variable 'flow_gyro_camera' has been eliminated by optimizer	GCPICMX32.c
+hint: 8917	1164	Variable 'focal_length_x' has been eliminated by optimizer	GCPICMX32.c
+hint: 8917	1164	Variable 'flow_y' has been eliminated by optimizer	GCPICMX32.c
+hint: 8913	1164	Variable 'shift' has been eliminated by optimizer	GCPICMX32.c
+hint: 9096	1164	Variable 'a23' has been eliminated by optimizer	GCPICMX32.c
+hint: 9097	1164	Variable 'a33' has been eliminated by optimizer	GCPICMX32.c
+hint: 9500	1164	Variable 'diffInput' has been eliminated by optimizer	GCPICMX32.c
+hint: 9781	1164	Variable 'noiseBand' has been eliminated by optimizer	GCPICMX32.c
+hint: 9782	1164	Variable 'oStep' has been eliminated by optimizer	GCPICMX32.c
+hint: 9784	1164	Variable 'StartVal' has been eliminated by optimizer	GCPICMX32.c
+hint: 10012	1164	Variable 'feedback' has been eliminated by optimizer	GCPICMX32.c
+hint: 10085	1164	Variable 'deltaT' has been eliminated by optimizer	GCPICMX32.c
+hint: 10374	1164	Variable 'v0' has been eliminated by optimizer	GCPICMX32.c
+hint: 10375	1164	Variable 'v1' has been eliminated by optimizer	GCPICMX32.c
+hint: 10389	1164	Variable 'rcvdCheckSum' has been eliminated by optimizer	GCPICMX32.c
+hint: 10392	1164	Variable 'checkSum' has been eliminated by optimizer	GCPICMX32.c
+hint: 10715	1164	Variable 'downAMP' has been eliminated by optimizer	GCPICMX32.c
+hint: 10904	1164	Variable 'leg0_direction' has been eliminated by optimizer	GCPICMX32.c
+hint: 10904	1164	Variable 'leg1_direction' has been eliminated by optimizer	GCPICMX32.c
+hint: 10904	1164	Variable 'leg2_direction' has been eliminated by optimizer	GCPICMX32.c
+hint: 10904	1164	Variable 'leg3_direction' has been eliminated by optimizer	GCPICMX32.c
+hint: 10941	1164	Variable 'state' has been eliminated by optimizer	GCPICMX32.c
+hint: 10961	1164	Variable 'freq' has been eliminated by optimizer	GCPICMX32.c
+hint: 11593	1164	Variable 'days' has been eliminated by optimizer	GCPICMX32.c
+hint: 11594	1164	Variable 'timeTemp' has been eliminated by optimizer	GCPICMX32.c
+hint: 11708	1164	Variable 'year' has been eliminated by optimizer	GCPICMX32.c
+hint: 12150	1164	Variable 'phseEle' has been eliminated by optimizer	GCPICMX32.c
+hint: 12291	1164	Variable 'py' has been eliminated by optimizer	GCPICMX32.c
+hint: 12670	1164	Variable 'sinh_value' has been eliminated by optimizer	GCPICMX32.c
+hint: 13103	1164	Variable 'ppm' has been eliminated by optimizer	GCPICMX32.c
+hint: 13161	1164	Variable 'mag_y' has been eliminated by optimizer	GCPICMX32.c
+hint: 13325	1164	Variable 'mag_heading_y' has been eliminated by optimizer	GCPICMX32.c
+hint: 13326	1164	Variable 'errorCourse' has been eliminated by optimizer	GCPICMX32.c
+hint: 13389	1164	Variable 'renorm' has been eliminated by optimizer	GCPICMX32.c
+hint: 13640	1164	Variable 'qDotw' has been eliminated by optimizer	GCPICMX32.c
+hint: 13644	1164	Variable 'mr_x' has been eliminated by optimizer	GCPICMX32.c
+hint: 13783	1164	Variable 'sinAccMag' has been eliminated by optimizer	GCPICMX32.c
+hint: 14147	1164	Variable 'tiltDirection' has been eliminated by optimizer	GCPICMX32.c
+hint: 14190	1164	Variable 'bx' has been eliminated by optimizer	GCPICMX32.c
+hint: 14334	1164	Variable 'bovera' has been eliminated by optimizer	GCPICMX32.c
+hint: 14904	1164	Variable 'c' has been eliminated by optimizer	GCPICMX32.c
+hint: 14925	1164	Variable 'x' has been eliminated by optimizer	GCPICMX32.c
+hint: 15040	1164	Variable 'c' has been eliminated by optimizer	GCPICMX32.c
+hint: 15078	1164	Variable 'return_value' has been eliminated by optimizer	GCPICMX32.c
+hint: 15275	1164	Variable 'distance' has been eliminated by optimizer	GCPICMX32.c
+hint: 15405	1164	Variable 'euler_y' has been eliminated by optimizer	GCPICMX32.c
+hint: 15935	1164	Variable 'rk' has been eliminated by optimizer	GCPICMX32.c
+hint: 16154	1164	Variable 'qw' has been eliminated by optimizer	GCPICMX32.c
+hint: 16466	1164	Variable 'valCnt' has been eliminated by optimizer	GCPICMX32.c
+hint: 351	1164	Variable 'i2cDevByte' has been eliminated by optimizer	GCPICMX32.c
+hint: 352	1164	Variable 'returnCode' has been eliminated by optimizer	GCPICMX32.c
+hint: 423	1164	Variable 'i2cDevByte' has been eliminated by optimizer	GCPICMX32.c
+hint: 426	1164	Variable 'var1' has been eliminated by optimizer	GCPICMX32.c
+hint: 426	1164	Variable 'var2' has been eliminated by optimizer	GCPICMX32.c
+hint: 426	1164	Variable 'var3' has been eliminated by optimizer	GCPICMX32.c
+hint: 547	1164	Variable 'i2cDevByte' has been eliminated by optimizer	GCPICMX32.c
+hint: 550	1164	Variable 'var1' has been eliminated by optimizer	GCPICMX32.c
+hint: 550	1164	Variable 'var2' has been eliminated by optimizer	GCPICMX32.c
+hint: 550	1164	Variable 'var3' has been eliminated by optimizer	GCPICMX32.c
+hint: 550	1164	Variable 'var4' has been eliminated by optimizer	GCPICMX32.c
+hint: 550	1164	Variable 'var5' has been eliminated by optimizer	GCPICMX32.c
+hint: 550	1164	Variable 'var7' has been eliminated by optimizer	GCPICMX32.c
+hint: 550	1164	Variable 'var8' has been eliminated by optimizer	GCPICMX32.c
+hint: 550	1164	Variable 'var9' has been eliminated by optimizer	GCPICMX32.c
+hint: 705	1164	Variable 'i2cDevByte' has been eliminated by optimizer	GCPICMX32.c
+hint: 708	1164	Variable 'var1' has been eliminated by optimizer	GCPICMX32.c
+hint: 708	1164	Variable 'var2' has been eliminated by optimizer	GCPICMX32.c
+hint: 708	1164	Variable 'var3' has been eliminated by optimizer	GCPICMX32.c
+hint: 708	1164	Variable 'var4' has been eliminated by optimizer	GCPICMX32.c
+hint: 823	1164	Variable 'temp' has been eliminated by optimizer	GCPICMX32.c
+hint: 824	1164	Variable 'i2cDevByte' has been eliminated by optimizer	GCPICMX32.c
+hint: 91	1164	Variable 'len_x' has been eliminated by optimizer	GCPICMX32.c
+hint: 197	1164	Variable 'posOfChar' has been eliminated by optimizer	GCPICMX32.c
+hint: 252	1164	Variable 'posOfChar' has been eliminated by optimizer	GCPICMX32.c
+hint: 472	1164	Variable 'secondLetter' has been eliminated by optimizer	GCPICMX32.c
+hint: 1202	1164	Variable 'fCMin' has been eliminated by optimizer	GCPICMX32.c
+hint: 1307	1164	Variable 'R1' has been eliminated by optimizer	GCPICMX32.c
+hint: 1884	1164	Variable 'rgb_size' has been eliminated by optimizer	GCPICMX32.c
+hint: 1978	1164	Variable 'var_bg' has been eliminated by optimizer	GCPICMX32.c
+hint: 1980	1164	Variable 'varience' has been eliminated by optimizer	GCPICMX32.c
+hint: 1980	1164	Variable 'diff' has been eliminated by optimizer	GCPICMX32.c
+hint: 1978	1164	Variable 'wt' has been eliminated by optimizer	GCPICMX32.c
+hint: 1979	1164	Variable 'wt1' has been eliminated by optimizer	GCPICMX32.c
+hint: 1979	1164	Variable 'mean1' has been eliminated by optimizer	GCPICMX32.c
+hint: 1979	1164	Variable 'sum1' has been eliminated by optimizer	GCPICMX32.c
+hint: 1979	1164	Variable 'var1' has been eliminated by optimizer	GCPICMX32.c
+hint: 2018	1164	Variable 'var_fg' has been eliminated by optimizer	GCPICMX32.c
+hint: 2017	1164	Variable 'wt' has been eliminated by optimizer	GCPICMX32.c
+hint: 2017	1164	Variable 'mean' has been eliminated by optimizer	GCPICMX32.c
+hint: 2017	1164	Variable 'sum' has been eliminated by optimizer	GCPICMX32.c
+hint: 2017	1164	Variable 'var' has been eliminated by optimizer	GCPICMX32.c
+hint: 2018	1164	Variable 'wt1' has been eliminated by optimizer	GCPICMX32.c
+hint: 2018	1164	Variable 'mean1' has been eliminated by optimizer	GCPICMX32.c
+hint: 2018	1164	Variable 'sum1' has been eliminated by optimizer	GCPICMX32.c
+hint: 2018	1164	Variable 'var1' has been eliminated by optimizer	GCPICMX32.c
+hint: 2217	1164	Variable 'line_len' has been eliminated by optimizer	GCPICMX32.c
+hint: 2649	1164	Variable 'u' has been eliminated by optimizer	GCPICMX32.c
+hint: 2776	1164	Variable 'pix' has been eliminated by optimizer	GCPICMX32.c
+hint: 3285	1164	Variable 'p' has been eliminated by optimizer	GCPICMX32.c
+hint: 3285	1164	Variable 'v' has been eliminated by optimizer	GCPICMX32.c
+hint: 3543	1164	Variable 'thisD' has been eliminated by optimizer	GCPICMX32.c
+hint: 3623	1164	Variable 'baseJ' has been eliminated by optimizer	GCPICMX32.c
+hint: 3964	1164	Variable 'acc' has been eliminated by optimizer	GCPICMX32.c
+hint: 4147	1164	Variable 'acc' has been eliminated by optimizer	GCPICMX32.c
+hint: 4213	1164	Variable 'diff' has been eliminated by optimizer	GCPICMX32.c
+hint: 4215	1164	Variable 'qual' has been eliminated by optimizer	GCPICMX32.c
+hint: 4207	1164	Variable 'meanflowx' has been eliminated by optimizer	GCPICMX32.c
+hint: 4208	1164	Variable 'meanflowy' has been eliminated by optimizer	GCPICMX32.c
+hint: 4397	1164	Variable 'lx1' has been eliminated by optimizer	GCPICMX32.c
+hint: 4398	1164	Variable 'lx2' has been eliminated by optimizer	GCPICMX32.c
+hint: 4399	1164	Variable 'lx3' has been eliminated by optimizer	GCPICMX32.c
+hint: 4400	1164	Variable 'lx4' has been eliminated by optimizer	GCPICMX32.c
+hint: 4402	1164	Variable 'ly2' has been eliminated by optimizer	GCPICMX32.c
+hint: 4404	1164	Variable 'ly4' has been eliminated by optimizer	GCPICMX32.c
+hint: 4411	1164	Variable 'ry2' has been eliminated by optimizer	GCPICMX32.c
+hint: 4413	1164	Variable 'ry4' has been eliminated by optimizer	GCPICMX32.c
+hint: 4438	1164	Variable 'ly2' has been eliminated by optimizer	GCPICMX32.c
+hint: 4439	1164	Variable 'ly3' has been eliminated by optimizer	GCPICMX32.c
+hint: 4447	1164	Variable 'ry2' has been eliminated by optimizer	GCPICMX32.c
+hint: 4448	1164	Variable 'ry3' has been eliminated by optimizer	GCPICMX32.c
+hint: 4614	1164	Variable 'rgb_data' has been eliminated by optimizer	GCPICMX32.c
+hint: 0	1164	Variable '?FLOC___cubeRoot?T38408' has been eliminated by optimizer	GCPICMX32.c
+hint: 4687	1164	Variable 'ex' has been eliminated by optimizer	GCPICMX32.c
+hint: 4687	1164	Variable 'shx' has been eliminated by optimizer	GCPICMX32.c
+hint: 4733	1164	Variable 'charsWrit' has been eliminated by optimizer	GCPICMX32.c
+hint: 4794	1164	Variable 'charsWrit' has been eliminated by optimizer	GCPICMX32.c
+hint: 4938	1164	Variable 'p' has been eliminated by optimizer	GCPICMX32.c
+hint: 4941	1164	Variable 'r0' has been eliminated by optimizer	GCPICMX32.c
+hint: 4945	1164	Variable 'out_x' has been eliminated by optimizer	GCPICMX32.c
+hint: 4946	1164	Variable 'out_y' has been eliminated by optimizer	GCPICMX32.c
+hint: 4981	1164	Variable 'r0' has been eliminated by optimizer	GCPICMX32.c
+hint: 5000	1164	Variable '_yuv' has been eliminated by optimizer	GCPICMX32.c
+hint: 5045	1164	Variable 'out_x' has been eliminated by optimizer	GCPICMX32.c
+hint: 5045	1164	Variable 'out_y' has been eliminated by optimizer	GCPICMX32.c
+hint: 5083	1164	Variable 'r' has been eliminated by optimizer	GCPICMX32.c
+hint: 5125	1164	Variable 'yuv8' has been eliminated by optimizer	GCPICMX32.c
+hint: 5251	1164	Variable 'p5' has been eliminated by optimizer	GCPICMX32.c
+hint: 5306	1164	Variable 'val' has been eliminated by optimizer	GCPICMX32.c
+hint: 5332	1164	Variable 'val' has been eliminated by optimizer	GCPICMX32.c
+hint: 5359	1164	Variable 'val' has been eliminated by optimizer	GCPICMX32.c
+hint: 5388	1164	Variable 'val' has been eliminated by optimizer	GCPICMX32.c
+hint: 6021	1164	Variable 'offsetFlt' has been eliminated by optimizer	GCPICMX32.c
+hint: 6097	1164	Variable 'offsetFlt' has been eliminated by optimizer	GCPICMX32.c
+hint: 278	1164	Variable 'bpmIdx' has been eliminated by optimizer	GCPICMX32.c
+hint: 429	1164	Variable 't' has been eliminated by optimizer	GCPICMX32.c
+hint: 811	1164	Variable 'destValue' has been eliminated by optimizer	GCPICMX32.c
+hint: 1664	1164	Variable 'collect' has been eliminated by optimizer	GCPICMX32.c
+hint: 58	1164	Variable 'uExponent' has been eliminated by optimizer	GCPICMX32.c
+hint: 59	1164	Variable 'uMantissa' has been eliminated by optimizer	GCPICMX32.c
+hint: 116	1164	Variable 'exponent' has been eliminated by optimizer	GCPICMX32.c
+hint: 98	1164	Variable 'pAddr' has been eliminated by optimizer	GCPICMX32.c
+hint: 186	1164	Variable 'crcResult' has been eliminated by optimizer	GCPICMX32.c
+hint: 188	1164	Variable 'wdata' has been eliminated by optimizer	GCPICMX32.c
+hint: 268	1164	Variable 'crcResult' has been eliminated by optimizer	GCPICMX32.c
+hint: 269	1164	Variable 'crcStoredInFlash' has been eliminated by optimizer	GCPICMX32.c
+hint: 250	1164	Variable 'val' has been eliminated by optimizer	GCPICMX32.c
+hint: 352	1164	Variable 'val' has been eliminated by optimizer	GCPICMX32.c
+hint: 373	1164	Variable 'val' has been eliminated by optimizer	GCPICMX32.c
+hint: 43	1164	Variable 'tmp' has been eliminated by optimizer	GCPICMX32.c
+hint: 124	1164	Variable 'T1' has been eliminated by optimizer	GCPICMX32.c
+hint: 124	1164	Variable 'T2' has been eliminated by optimizer	GCPICMX32.c
+hint: 216	1164	Variable 'offset' has been eliminated by optimizer	GCPICMX32.c
+hint: 62	1164	Variable 'status' has been eliminated by optimizer	GCPICMX32.c
+hint: 287	1164	Variable 'status' has been eliminated by optimizer	GCPICMX32.c
+hint: 620	1164	Variable 'crc_extra' has been eliminated by optimizer	GCPICMX32.c
+hint: 618	1164	Variable 'bufferIndex' has been eliminated by optimizer	GCPICMX32.c
+hint: 994	1164	Variable 'status' has been eliminated by optimizer	GCPICMX32.c
+hint: 1192	1164	Variable 'returnUDP' has been eliminated by optimizer	GCPICMX32.c
+hint: 92	1164	Variable 'dlng' has been eliminated by optimizer	GCPICMX32.c
+hint: 103	1164	Variable 'mon' has been eliminated by optimizer	GCPICMX32.c
+hint: 180	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 263	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 23	1164	Variable 'secondsLow' has been eliminated by optimizer	GCPICMX32.c
+hint: 24	1164	Variable 'secondsHigh' has been eliminated by optimizer	GCPICMX32.c
+hint: 25	1164	Variable 'secondsActual' has been eliminated by optimizer	GCPICMX32.c
+hint: 26	1164	Variable 'minutesLow' has been eliminated by optimizer	GCPICMX32.c
+hint: 27	1164	Variable 'minutesHigh' has been eliminated by optimizer	GCPICMX32.c
+hint: 28	1164	Variable 'minutesActual' has been eliminated by optimizer	GCPICMX32.c
+hint: 29	1164	Variable 'hoursLow' has been eliminated by optimizer	GCPICMX32.c
+hint: 30	1164	Variable 'hoursHigh' has been eliminated by optimizer	GCPICMX32.c
+hint: 31	1164	Variable 'hoursActual' has been eliminated by optimizer	GCPICMX32.c
+hint: 157	1164	Variable 'udpSent' has been eliminated by optimizer	GCPICMX32.c
+hint: 158	1164	Variable 'retMavUDP' has been eliminated by optimizer	GCPICMX32.c
+hint: 103	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 155	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 205	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 256	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 327	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 383	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 434	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 490	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 546	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 600	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 656	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 745	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 825	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 949	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 1108	1164	Variable 'servoNumber' has been eliminated by optimizer	GCPICMX32.c
+hint: 1109	1164	Variable 'servoPwm' has been eliminated by optimizer	GCPICMX32.c
+hint: 1110	1164	Variable 'servoCycleCnt' has been eliminated by optimizer	GCPICMX32.c
+hint: 1113	1164	Variable 'altitudeSetPoint' has been eliminated by optimizer	GCPICMX32.c
+hint: 1114	1164	Variable 'altitudeFrame' has been eliminated by optimizer	GCPICMX32.c
+hint: 1116	1164	Variable 'directionMode' has been eliminated by optimizer	GCPICMX32.c
+hint: 1118	1164	Variable 'paraChuteAction' has been eliminated by optimizer	GCPICMX32.c
+hint: 1120	1164	Variable 'SEq_1' has been eliminated by optimizer	GCPICMX32.c
+hint: 1121	1164	Variable 'SEq_2' has been eliminated by optimizer	GCPICMX32.c
+hint: 1122	1164	Variable 'SEq_3' has been eliminated by optimizer	GCPICMX32.c
+hint: 1123	1164	Variable 'SEq_4' has been eliminated by optimizer	GCPICMX32.c
+hint: 1127	1164	Variable 'ret' has been eliminated by optimizer	GCPICMX32.c
+hint: 376	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 766	1164	Variable 'exponent' has been eliminated by optimizer	GCPICMX32.c
+hint: 1058	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 1102	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 102	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 305	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 349	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 397	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 461	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 305	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 349	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 383	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 463	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 507	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 628	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 730	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 796	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 829	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 871	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 905	1164	Variable 'len' has been eliminated by optimizer	GCPICMX32.c
+hint: 937	1164	Variable 'dt' has been eliminated by optimizer	GCPICMX32.c
+hint: 1204	1164	Variable 'lenWrit' has been eliminated by optimizer	GCPICMX32.c
+hint: 1351	1164	Variable 'messageLen' has been eliminated by optimizer	GCPICMX32.c
+hint: 0	1164	Variable '?FLOC___main?T83012' has been eliminated by optimizer	GCPICMX32.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+hint: 2645	1163	Variable 'switchValue' has been declared, but not used	gc_events.c
+hint: 4206	1163	Variable 'SEQ_retTCP' has been declared, but not used	gc_events.c
+hint: 4221	1163	Variable 'XY_retTCP' has been declared, but not used	gc_events.c
+hint: 4224	1163	Variable 'val' has been declared, but not used	gc_events.c
+hint: 4225	1163	Variable 'hmiReqActive1' has been declared, but not used	gc_events.c
+hint: 11062	1354	argument may be out of range [?T10109]	gc_events.c
+hint: 11121	1354	argument may be out of range [?T10170]	gc_events.c
+hint: 11122	1354	argument may be out of range [?T10182]	gc_events.c
+hint: 18755	1163	Variable 'height' has been declared, but not used	gc_events.c
+hint: 18756	1163	Variable 'center' has been declared, but not used	gc_events.c
+diagnostics: 21527	123	Compiled Successfully	gc_events.c
+hint: 43	1164	Variable 'tmp' has been eliminated by optimizer	gc_events.c
+hint: 1581	1164	Variable 'len' has been eliminated by optimizer	gc_events.c
+hint: 2215	1164	Variable 'calcCRC' has been eliminated by optimizer	gc_events.c
+hint: 2217	1164	Variable 'payStartLen' has been eliminated by optimizer	gc_events.c
+hint: 2220	1164	Variable 'newCRC' has been eliminated by optimizer	gc_events.c
+hint: 2365	1164	Variable 'cmd_state' has been eliminated by optimizer	gc_events.c
+hint: 5287	1164	Variable 'secondsLow' has been eliminated by optimizer	gc_events.c
+hint: 5288	1164	Variable 'secondsHigh' has been eliminated by optimizer	gc_events.c
+hint: 5289	1164	Variable 'minutesLow' has been eliminated by optimizer	gc_events.c
+hint: 5290	1164	Variable 'minutesHigh' has been eliminated by optimizer	gc_events.c
+hint: 5291	1164	Variable 'hoursLow' has been eliminated by optimizer	gc_events.c
+hint: 5292	1164	Variable 'hoursHigh' has been eliminated by optimizer	gc_events.c
+hint: 5317	1164	Variable 'secondsLow' has been eliminated by optimizer	gc_events.c
+hint: 5318	1164	Variable 'secondsHigh' has been eliminated by optimizer	gc_events.c
+hint: 5319	1164	Variable 'minutesLow' has been eliminated by optimizer	gc_events.c
+hint: 5320	1164	Variable 'minutesHigh' has been eliminated by optimizer	gc_events.c
+hint: 5321	1164	Variable 'hoursLow' has been eliminated by optimizer	gc_events.c
+hint: 5322	1164	Variable 'hoursHigh' has been eliminated by optimizer	gc_events.c
+hint: 5648	1164	Variable 'look' has been eliminated by optimizer	gc_events.c
+hint: 5648	1164	Variable 'pos' has been eliminated by optimizer	gc_events.c
+hint: 5648	1164	Variable 'crc' has been eliminated by optimizer	gc_events.c
+hint: 6206	1164	Variable 'year' has been eliminated by optimizer	gc_events.c
+hint: 6467	1164	Variable 'timestamp_millis' has been eliminated by optimizer	gc_events.c
+hint: 6469	1164	Variable 'units' has been eliminated by optimizer	gc_events.c
+hint: 6470	1164	Variable 'dec' has been eliminated by optimizer	gc_events.c
+hint: 6471	1164	Variable 'hund' has been eliminated by optimizer	gc_events.c
+hint: 7244	1164	Variable 'valueLen' has been eliminated by optimizer	gc_events.c
+hint: 7356	1164	Variable 'randnum' has been eliminated by optimizer	gc_events.c
+hint: 7354	1164	Variable 'RandomNumcnonce' has been eliminated by optimizer	gc_events.c
+hint: 7693	1164	Variable 'error' has been eliminated by optimizer	gc_events.c
+hint: 8316	1164	Variable 'w' has been eliminated by optimizer	gc_events.c
+hint: 10546	1164	Variable 'tmp1' has been eliminated by optimizer	gc_events.c
+hint: 11105	1164	Variable 'kill' has been eliminated by optimizer	gc_events.c
+hint: 11488	1164	Variable 'angle_h' has been eliminated by optimizer	gc_events.c
+hint: 11488	1164	Variable 'angle_l' has been eliminated by optimizer	gc_events.c
+hint: 11488	1164	Variable 'rpm_h' has been eliminated by optimizer	gc_events.c
+hint: 11488	1164	Variable 'rpm_l' has been eliminated by optimizer	gc_events.c
+hint: 11488	1164	Variable 'chksum' has been eliminated by optimizer	gc_events.c
+hint: 12173	1164	Variable 'seed' has been eliminated by optimizer	gc_events.c
+hint: 12191	1164	Variable 'seed' has been eliminated by optimizer	gc_events.c
+hint: 12256	1164	Variable 'noise' has been eliminated by optimizer	gc_events.c
+hint: 12256	1164	Variable 's' has been eliminated by optimizer	gc_events.c
+hint: 12551	1164	Variable 'k' has been eliminated by optimizer	gc_events.c
+hint: 12714	1164	Variable 'term2' has been eliminated by optimizer	gc_events.c
+hint: 13578	1164	Variable 'size' has been eliminated by optimizer	gc_events.c
+hint: 13603	1164	Variable 'size' has been eliminated by optimizer	gc_events.c
+hint: 13628	1164	Variable 'size' has been eliminated by optimizer	gc_events.c
+hint: 13653	1164	Variable 'size' has been eliminated by optimizer	gc_events.c
+hint: 14692	1164	Variable 'z' has been eliminated by optimizer	gc_events.c
+hint: 15316	1164	Variable 'cosAngle' has been eliminated by optimizer	gc_events.c
+hint: 15359	1164	Variable 'cosAngle' has been eliminated by optimizer	gc_events.c
+hint: 15402	1164	Variable 'cosAngle' has been eliminated by optimizer	gc_events.c
+hint: 15757	1164	Variable 's' has been eliminated by optimizer	gc_events.c
+hint: 15777	1164	Variable 's' has been eliminated by optimizer	gc_events.c
+hint: 15951	1164	Variable 'dOri' has been eliminated by optimizer	gc_events.c
+hint: 16339	1164	Variable 'i' has been eliminated by optimizer	gc_events.c
+hint: 16339	1164	Variable 'j' has been eliminated by optimizer	gc_events.c
+hint: 16595	1164	Variable 'lon2' has been eliminated by optimizer	gc_events.c
+hint: 16596	1164	Variable 'x' has been eliminated by optimizer	gc_events.c
+hint: 17204	1164	Variable 'dy2s' has been eliminated by optimizer	gc_events.c
+hint: 17378	1164	Variable 'part2' has been eliminated by optimizer	gc_events.c
+hint: 17941	1164	Variable 'rl' has been eliminated by optimizer	gc_events.c
+hint: 18131	1164	Variable 'rx1' has been eliminated by optimizer	gc_events.c
+hint: 18631	1164	Variable 'rel_diff' has been eliminated by optimizer	gc_events.c
+hint: 18687	1164	Variable 'hwhm' has been eliminated by optimizer	gc_events.c
+hint: 18758	1164	Variable 'hwhm' has been eliminated by optimizer	gc_events.c
+hint: 18837	1164	Variable 'b' has been eliminated by optimizer	gc_events.c
+hint: 19052	1164	Variable 'i' has been eliminated by optimizer	gc_events.c
+hint: 19477	1164	Variable 'l2' has been eliminated by optimizer	gc_events.c
+hint: 19478	1164	Variable 'quad' has been eliminated by optimizer	gc_events.c
+hint: 20127	1164	Variable 'two_theta' has been eliminated by optimizer	gc_events.c
+hint: 20753	1164	Variable 'scale' has been eliminated by optimizer	gc_events.c
+hint: 20754	1164	Variable 'tmp' has been eliminated by optimizer	gc_events.c
+hint: 20968	1164	Variable 'a_qq' has been eliminated by optimizer	gc_events.c
+hint: 21501	1164	Variable 'dp' has been eliminated by optimizer	gc_events.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 0	1004	interrupt handler (Timer1_interrupt at 0x0004)	InteruptServices.c
+hint: 0	1004	interrupt handler (Timer_5Interrupt at 0x0014)	InteruptServices.c
+hint: 0	1004	interrupt handler (UART2_interrupt at 0x0020)	InteruptServices.c
+hint: 339	1163	Variable 'loop' has been declared, but not used	InteruptServices.c
+hint: 339	1163	Variable 'inner' has been declared, but not used	InteruptServices.c
+hint: 0	1004	interrupt handler (UART5_interrupt at 0x0033)	InteruptServices.c
+hint: 0	1004	interrupt handler (interruptGPS at 0x001F)	InteruptServices.c
+hint: 0	1004	interrupt handler (UART4_interrupt at 0x0031)	InteruptServices.c
+hint: 0	1004	interrupt handler (UART6_interrupt at 0x0032)	InteruptServices.c
+hint: 0	1004	interrupt handler (MAV_interrupt at 0x0018)	mav_generic_interrupt.h
+hint: 0	1004	interrupt handler (coreTimer at 0x0000)	InteruptServices.c
+hint: 0	1004	interrupt handler (Io0_InterruptESD at 0x0003)	InteruptServices.c
+hint: 0	1004	interrupt handler (Io1_BatchTk_Low at 0x0007)	InteruptServices.c
+hint: 0	1004	interrupt handler (Io2_BatchTk_Full at 0x000B)	InteruptServices.c
+hint: 3059	1354	argument may be out of range [g_saveBatchState]	InteruptServices.c
+hint: 0	1004	interrupt handler (Io3_BatchTk_Low at 0x000F)	InteruptServices.c
+hint: 0	1004	interrupt handler (Io4_BatchTk_Full at 0x0013)	InteruptServices.c
+hint: 0	1004	interrupt handler (ChangeNotice at 0x001A)	InteruptServices.c
+diagnostics: 3170	123	Compiled Successfully	InteruptServices.c
+hint: 43	1164	Variable 'tmp' has been eliminated by optimizer	InteruptServices.c
+hint: 1038	1164	Variable 'SOGKGPSPUBX' has been eliminated by optimizer	InteruptServices.c
+hint: 1044	1164	Variable 'diffAgeGPSPUBX' has been eliminated by optimizer	InteruptServices.c
+hint: 1050	1164	Variable 'TDOPGPSPUBX' has been eliminated by optimizer	InteruptServices.c
+hint: 1052	1164	Variable 'numSvsGPSPUBX' has been eliminated by optimizer	InteruptServices.c
+hint: 1054	1164	Variable 'DRGPSPUBX' has been eliminated by optimizer	InteruptServices.c
+hint: 16	1164	Variable 'CRCCalc' has been eliminated by optimizer	InteruptServices.c
+hint: 18	1164	Variable 'CRC_CKB' has been eliminated by optimizer	InteruptServices.c
+diagnostics: 0	122	Compilation Started	SBGC_cmd_helpers.c
+diagnostics: 0	123	Compiled Successfully	SBGC_cmd_helpers.c
+diagnostics: 1	122	Compilation Started	SBGC_cmd_helpers.c
+diagnostics: 739	123	Compiled Successfully	crc.c
+hint: 300	1164	Variable 'dataZ' has been eliminated by optimizer	crc.c
+hint: 331	1164	Variable 'crc32Result' has been eliminated by optimizer	crc.c
+hint: 376	1164	Variable 'crc32Result' has been eliminated by optimizer	crc.c
+hint: 419	1164	Variable 'sum' has been eliminated by optimizer	crc.c
+hint: 515	1164	Variable 'data_bit' has been eliminated by optimizer	crc.c
+hint: 515	1164	Variable 'crc_bit' has been eliminated by optimizer	crc.c
+hint: 670	1164	Variable 'dataZ' has been eliminated by optimizer	crc.c
+hint: 692	1164	Variable 'i' has been eliminated by optimizer	crc.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 849	123	Compiled Successfully	lwNx.c
+hint: 145	1164	Variable 'code1' has been eliminated by optimizer	lwNx.c
+hint: 169	1164	Variable 'major' has been eliminated by optimizer	lwNx.c
+hint: 170	1164	Variable 'minor' has been eliminated by optimizer	lwNx.c
+hint: 171	1164	Variable 'patch' has been eliminated by optimizer	lwNx.c
+hint: 264	1164	Variable 'cmdId' has been eliminated by optimizer	lwNx.c
+hint: 355	1164	Variable 'cmdId' has been eliminated by optimizer	lwNx.c
+hint: 454	1164	Variable 'payloadLength' has been eliminated by optimizer	lwNx.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 3289	123	Compiled Successfully	frozen.c
+hint: 1253	1164	Variable 'fmt2' has been eliminated by optimizer	frozen.c
+hint: 1258	1164	Variable 'val' has been eliminated by optimizer	frozen.c
+hint: 1263	1164	Variable 'f' has been eliminated by optimizer	frozen.c
+hint: 1266	1164	Variable 'val' has been eliminated by optimizer	frozen.c
+hint: 1467	1164	Variable 'n' has been eliminated by optimizer	frozen.c
+hint: 1862	1164	Variable 'len' has been eliminated by optimizer	frozen.c
+hint: 2052	1164	Variable 'result' has been eliminated by optimizer	frozen.c
+hint: 2312	1164	Variable 'p' has been eliminated by optimizer	frozen.c
+hint: 2323	1164	Variable 'result' has been eliminated by optimizer	frozen.c
+hint: 2722	1164	Variable 'result' has been eliminated by optimizer	frozen.c
+hint: 2821	1164	Variable 'ps' has been eliminated by optimizer	frozen.c
+hint: 3250	1164	Variable 'name' has been eliminated by optimizer	frozen.c
+hint: 3251	1164	Variable 'value' has been eliminated by optimizer	frozen.c
+hint: 3217	1164	Variable 'value' has been eliminated by optimizer	frozen.c
+hint: 3275	1164	Variable 'ALength' has been eliminated by optimizer	frozen.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 856	123	Compiled Successfully	dali_encode.c
+hint: 619	1164	Variable 'res' has been eliminated by optimizer	dali_encode.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 281	123	Compiled Successfully	canon.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 5623	123	Compiled Successfully	cb0r.c
+hint: 2620	1164	Variable 'temp' has been eliminated by optimizer	cb0r.c
+hint: 2729	1164	Variable 'temp' has been eliminated by optimizer	cb0r.c
+hint: 4511	1164	Variable 'temp1' has been eliminated by optimizer	cb0r.c
+hint: 4512	1164	Variable 'temp2' has been eliminated by optimizer	cb0r.c
+hint: 5033	1164	Variable 'Tm' has been eliminated by optimizer	cb0r.c
+hint: 5610	1164	Variable 'lenCalc' has been eliminated by optimizer	cb0r.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 1197	123	Compiled Successfully	yxml.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 3310	123	Compiled Successfully	encoders.c
+hint: 437	1164	Variable 'a' has been eliminated by optimizer	encoders.c
+hint: 664	1164	Variable 'a' has been eliminated by optimizer	encoders.c
+hint: 914	1164	Variable 'a' has been eliminated by optimizer	encoders.c
+hint: 3169	1164	Variable 'k' has been eliminated by optimizer	encoders.c
+hint: 3211	1164	Variable 'k' has been eliminated by optimizer	encoders.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 261	123	Compiled Successfully	msgpk_object.c
+hint: 940	1164	Variable 'd' has been eliminated by optimizer	msgpk_object.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 349	123	Compiled Successfully	canbus_funcs.c
+hint: 30	1164	Variable 'secondsLow' has been eliminated by optimizer	canbus_funcs.c
+hint: 31	1164	Variable 'secondsHigh' has been eliminated by optimizer	canbus_funcs.c
+hint: 32	1164	Variable 'secondsActual' has been eliminated by optimizer	canbus_funcs.c
+hint: 33	1164	Variable 'minutesLow' has been eliminated by optimizer	canbus_funcs.c
+hint: 34	1164	Variable 'minutesHigh' has been eliminated by optimizer	canbus_funcs.c
+hint: 35	1164	Variable 'minutesActual' has been eliminated by optimizer	canbus_funcs.c
+hint: 36	1164	Variable 'hoursLow' has been eliminated by optimizer	canbus_funcs.c
+hint: 37	1164	Variable 'hoursHigh' has been eliminated by optimizer	canbus_funcs.c
+hint: 38	1164	Variable 'hoursActual' has been eliminated by optimizer	canbus_funcs.c
+hint: 131	1164	Variable 'tail_byte_toggle' has been eliminated by optimizer	canbus_funcs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 184	123	Compiled Successfully	USBdscJRT.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 88	123	Compiled Successfully	LSM303D.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 256	123	Compiled Successfully	bldc.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 693	1163	Variable 'i' has been declared, but not used	mmc_file_handler.c
+diagnostics: 1012	123	Compiled Successfully	mmc_file_handler.c
+hint: 264	1164	Variable 'newPos' has been eliminated by optimizer	mmc_file_handler.c
+hint: 361	1164	Variable 'newPos' has been eliminated by optimizer	mmc_file_handler.c
+hint: 696	1164	Variable 'prodIDRead' has been eliminated by optimizer	mmc_file_handler.c
+hint: 697	1164	Variable 'posFile' has been eliminated by optimizer	mmc_file_handler.c
+hint: 698	1164	Variable 'newPos' has been eliminated by optimizer	mmc_file_handler.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+hint: 208	1163	Variable 'id' has been declared, but not used	Actisense_NGT1.c
+hint: 255	1163	Variable 'payload' has been declared, but not used	Actisense_NGT1.c
+hint: 368	1163	Variable 'written' has been declared, but not used	Actisense_NGT1.c
+diagnostics: 4908	123	Compiled Successfully	Actisense_NGT1.c
+hint: 364	1164	Variable 'r' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 639	1164	Variable 'CanIdPF' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 3073	1164	Variable 'ItIsFastPacket' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 3891	1164	Variable 'DP' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 3933	1164	Variable 'PF' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 3980	1164	Variable 'n' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 4076	1164	Variable 'result' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 4298	1164	Variable 'dep' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 4404	1164	Variable 'trip' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 4438	1164	Variable 'pos' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 4574	1164	Variable 'cog' has been eliminated by optimizer	Actisense_NGT1.c
+hint: 4592	1164	Variable 'rateType' has been eliminated by optimizer	Actisense_NGT1.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 152	123	Compiled Successfully	cpu_endian_defs.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 103	123	Compiled Successfully	nvFlash.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 22	123	Compiled Successfully	ntp.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 1058	123	Compiled Successfully	CAN_J1939.c
+hint: 104	1164	Variable 'msgFeedback' has been eliminated by optimizer	CAN_J1939.c
+hint: 149	1164	Variable 'msgFeedback' has been eliminated by optimizer	CAN_J1939.c
+hint: 509	1164	Variable 'wayLen' has been eliminated by optimizer	CAN_J1939.c
+hint: 688	1164	Variable 'CanIdPF' has been eliminated by optimizer	CAN_J1939.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 142	123	Compiled Successfully	XTCalls_Proto.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+hint: 2106	1354	argument may be out of range [?T2061]	protobuf_c.c
+hint: 2529	1354	argument may be out of range [?T2545]	protobuf_c.c
+hint: 2923	1354	argument may be out of range [?T3184]	protobuf_c.c
+diagnostics: 3695	123	Compiled Successfully	protobuf_c.c
+hint: 1375	1164	Variable 'min_length' has been eliminated by optimizer	protobuf_c.c
+hint: 1378	1164	Variable 'actual_length_size' has been eliminated by optimizer	protobuf_c.c
+hint: 1947	1164	Variable 'tmp' has been eliminated by optimizer	protobuf_c.c
+hint: 2068	1164	Variable 'new_start' has been eliminated by optimizer	protobuf_c.c
+hint: 2331	1164	Variable 'e_str' has been eliminated by optimizer	protobuf_c.c
+hint: 3213	1164	Variable 'size' has been eliminated by optimizer	protobuf_c.c
+hint: 3536	1164	Variable 'handlers' has been eliminated by optimizer	protobuf_c.c
+hint: 3537	1164	Variable 'handler' has been eliminated by optimizer	protobuf_c.c
+hint: 3677	1164	Variable 'mid_index' has been eliminated by optimizer	protobuf_c.c
+hint: 3678	1164	Variable 'mid_name' has been eliminated by optimizer	protobuf_c.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 631	123	Compiled Successfully	filter_types.c
+hint: 72	1164	Variable 'RC' has been eliminated by optimizer	filter_types.c
+hint: 357	1164	Variable 'denom' has been eliminated by optimizer	filter_types.c
+hint: 403	1164	Variable 'inScaled' has been eliminated by optimizer	filter_types.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 656	123	Compiled Successfully	cyrf6936.c
+hint: 1156	1164	Variable 'i2cDevByte' has been eliminated by optimizer	cyrf6936.c
+hint: 1202	1164	Variable 'i2cDevByte' has been eliminated by optimizer	cyrf6936.c
+hint: 1248	1164	Variable 'i2cDevByte' has been eliminated by optimizer	cyrf6936.c
+hint: 1294	1164	Variable 'i2cDevByte' has been eliminated by optimizer	cyrf6936.c
+hint: 1340	1164	Variable 'i2cDevByte' has been eliminated by optimizer	cyrf6936.c
+hint: 1513	1164	Variable 'ret' has been eliminated by optimizer	cyrf6936.c
+hint: 1587	1164	Variable 'temp' has been eliminated by optimizer	cyrf6936.c
+hint: 1588	1164	Variable 'i2cDevByte' has been eliminated by optimizer	cyrf6936.c
+hint: 1637	1164	Variable 'temp' has been eliminated by optimizer	cyrf6936.c
+hint: 1638	1164	Variable 'i2cDevByte' has been eliminated by optimizer	cyrf6936.c
+hint: 1686	1164	Variable 'temp' has been eliminated by optimizer	cyrf6936.c
+hint: 1687	1164	Variable 'i2cDevByte' has been eliminated by optimizer	cyrf6936.c
+hint: 1736	1164	Variable 'temp' has been eliminated by optimizer	cyrf6936.c
+hint: 1737	1164	Variable 'i2cDevByte' has been eliminated by optimizer	cyrf6936.c
+hint: 1785	1164	Variable 'temp' has been eliminated by optimizer	cyrf6936.c
+hint: 1786	1164	Variable 'i2cDevByte' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'DT' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'X11' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'X12' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'X23' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'X26' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'X31' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'X32' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'CF' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'PP1' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'PP2' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'PP3' has been eliminated by optimizer	cyrf6936.c
+hint: 2530	1164	Variable 'PP4' has been eliminated by optimizer	cyrf6936.c
+hint: 2675	1164	Variable 'status' has been eliminated by optimizer	cyrf6936.c
+hint: 2737	1164	Variable 'calTemp1' has been eliminated by optimizer	cyrf6936.c
+hint: 5302	1164	Variable 'mask' has been eliminated by optimizer	cyrf6936.c
+hint: 5329	1164	Variable 'mask' has been eliminated by optimizer	cyrf6936.c
+hint: 5387	1164	Variable 'mask' has been eliminated by optimizer	cyrf6936.c
+hint: 5420	1164	Variable 'mask' has been eliminated by optimizer	cyrf6936.c
+hint: 8704	1164	Variable 'readWord' has been eliminated by optimizer	cyrf6936.c
+hint: 8721	1164	Variable 'readWord' has been eliminated by optimizer	cyrf6936.c
+hint: 8731	1164	Variable 'vrntc' has been eliminated by optimizer	cyrf6936.c
+hint: 8731	1164	Variable 'rntc' has been eliminated by optimizer	cyrf6936.c
+hint: 8731	1164	Variable 'ntcTemp' has been eliminated by optimizer	cyrf6936.c
+hint: 8787	1164	Variable 'u' has been eliminated by optimizer	cyrf6936.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 747	123	Compiled Successfully	nelder_mead.c
+hint: 238	1164	Variable 'theta' has been eliminated by optimizer	nelder_mead.c
+hint: 283	1164	Variable 'ti' has been eliminated by optimizer	nelder_mead.c
+hint: 296	1164	Variable 'yi' has been eliminated by optimizer	nelder_mead.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 833	123	Compiled Successfully	OSC_packet.c
+hint: 278	1164	Variable 'd' has been eliminated by optimizer	OSC_packet.c
+hint: 279	1164	Variable 'elementSize' has been eliminated by optimizer	OSC_packet.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 336	123	Compiled Successfully	naive_bayes.c
+hint: 297	1164	Variable 'f' has been eliminated by optimizer	naive_bayes.c
+hint: 312	1164	Variable 'u' has been eliminated by optimizer	naive_bayes.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 84	123	Compiled Successfully	random_forest.c
+hint: 22	1164	Variable 'j' has been eliminated by optimizer	random_forest.c
+hint: 70	1164	Variable 'sample' has been eliminated by optimizer	random_forest.c
+hint: 73	1164	Variable 'sample_row_count' has been eliminated by optimizer	random_forest.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 138	123	Compiled Successfully	LogisticRegression.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 362	123	Compiled Successfully	SdA.c
+hint: 69	1164	Variable 'r' has been eliminated by optimizer	SdA.c
+hint: 164	1164	Variable 'r' has been eliminated by optimizer	SdA.c
+hint: 183	1164	Variable 'rho' has been eliminated by optimizer	SdA.c
+hint: 187	1164	Variable 'r' has been eliminated by optimizer	SdA.c
+hint: 232	1164	Variable 'i' has been eliminated by optimizer	SdA.c
+hint: 232	1164	Variable 'j' has been eliminated by optimizer	SdA.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 515	123	Compiled Successfully	LinearRegression.c
+hint: 161	1164	Variable 's' has been eliminated by optimizer	LinearRegression.c
+hint: 457	1164	Variable 'predictions' has been eliminated by optimizer	LinearRegression.c
+hint: 458	1164	Variable 'diff' has been eliminated by optimizer	LinearRegression.c
+hint: 473	1164	Variable 'predictions' has been eliminated by optimizer	LinearRegression.c
+hint: 474	1164	Variable 'diff' has been eliminated by optimizer	LinearRegression.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 255	123	Compiled Successfully	quadrotor.c
+hint: 73	1164	Variable 'psi' has been eliminated by optimizer	quadrotor.c
+hint: 210	1164	Variable 'force_z_body' has been eliminated by optimizer	quadrotor.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 575	123	Compiled Successfully	univariate_smooth.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 280	123	Compiled Successfully	vn100.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+hint: 258	1354	argument may be out of range [?T136]	cognex.c
+hint: 461	1354	argument may be out of range [?T334]	cognex.c
+hint: 525	1354	argument may be out of range [?T394]	cognex.c
+hint: 589	1354	argument may be out of range [?T467]	cognex.c
+diagnostics: 3424	123	Compiled Successfully	cognex.c
+hint: 274	1164	Variable 'commandStatus' has been eliminated by optimizer	cognex.c
+hint: 1791	1164	Variable 'valueIn' has been eliminated by optimizer	cognex.c
+hint: 1896	1164	Variable 'valueIn' has been eliminated by optimizer	cognex.c
+hint: 1993	1164	Variable 'valueIn' has been eliminated by optimizer	cognex.c
+hint: 2117	1164	Variable 'valueIn' has been eliminated by optimizer	cognex.c
+hint: 2217	1164	Variable 'valueIn' has been eliminated by optimizer	cognex.c
+hint: 2309	1164	Variable 'valueIn' has been eliminated by optimizer	cognex.c
+hint: 2399	1164	Variable 'valueIn' has been eliminated by optimizer	cognex.c
+hint: 2489	1164	Variable 'valueIn' has been eliminated by optimizer	cognex.c
+hint: 2591	1164	Variable 'valueIn' has been eliminated by optimizer	cognex.c
+hint: 2682	1164	Variable 'valueIn' has been eliminated by optimizer	cognex.c
+hint: 2760	1164	Variable 'method' has been eliminated by optimizer	cognex.c
+hint: 2762	1164	Variable 'commandStatus' has been eliminated by optimizer	cognex.c
+hint: 2850	1164	Variable 'method' has been eliminated by optimizer	cognex.c
+hint: 2852	1164	Variable 'commandStatus' has been eliminated by optimizer	cognex.c
+hint: 2947	1164	Variable 'method' has been eliminated by optimizer	cognex.c
+hint: 2949	1164	Variable 'commandStatus' has been eliminated by optimizer	cognex.c
+hint: 3036	1164	Variable 'method' has been eliminated by optimizer	cognex.c
+hint: 3038	1164	Variable 'commandStatus' has been eliminated by optimizer	cognex.c
+hint: 3125	1164	Variable 'method' has been eliminated by optimizer	cognex.c
+hint: 3127	1164	Variable 'commandStatus' has been eliminated by optimizer	cognex.c
+hint: 3219	1164	Variable 'method' has been eliminated by optimizer	cognex.c
+hint: 3221	1164	Variable 'commandStatus' has been eliminated by optimizer	cognex.c
+hint: 3313	1164	Variable 'method' has been eliminated by optimizer	cognex.c
+hint: 3315	1164	Variable 'commandStatus' has been eliminated by optimizer	cognex.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 259	123	Compiled Successfully	levenburg_marquardt.c
+hint: 163	1164	Variable 'verbose' has been eliminated by optimizer	levenburg_marquardt.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 520	1354	argument may be out of range [?T1721]	ethernet_ip.c
+diagnostics: 561	123	Compiled Successfully	ethernet_ip.c
+hint: 76	1164	Variable 'i4' has been eliminated by optimizer	ethernet_ip.c
+hint: 459	1164	Variable 'ctx' has been eliminated by optimizer	ethernet_ip.c
+hint: 494	1164	Variable 'ctx' has been eliminated by optimizer	ethernet_ip.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 428	1373	Argument is out of range [16]	kawasaki.c
+hint: 432	1373	Argument is out of range [17]	kawasaki.c
+hint: 436	1373	Argument is out of range [18]	kawasaki.c
+hint: 440	1373	Argument is out of range [19]	kawasaki.c
+hint: 444	1373	Argument is out of range [20]	kawasaki.c
+hint: 448	1373	Argument is out of range [21]	kawasaki.c
+diagnostics: 458	123	Compiled Successfully	kawasaki.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 1406	123	Compiled Successfully	morton.c
+hint: 177	1164	Variable 'shift' has been eliminated by optimizer	morton.c
+hint: 199	1164	Variable 'shift' has been eliminated by optimizer	morton.c
+hint: 221	1164	Variable 'shift' has been eliminated by optimizer	morton.c
+hint: 243	1164	Variable 'shift' has been eliminated by optimizer	morton.c
+hint: 360	1164	Variable 'shift' has been eliminated by optimizer	morton.c
+hint: 387	1164	Variable 'shift' has been eliminated by optimizer	morton.c
+hint: 414	1164	Variable 'answer_z' has been eliminated by optimizer	morton.c
+hint: 430	1164	Variable 'answer_z' has been eliminated by optimizer	morton.c
+hint: 446	1164	Variable 'answer_z' has been eliminated by optimizer	morton.c
+hint: 466	1164	Variable 'answer_z' has been eliminated by optimizer	morton.c
+hint: 482	1164	Variable 'answer_z' has been eliminated by optimizer	morton.c
+hint: 498	1164	Variable 'answer_z' has been eliminated by optimizer	morton.c
+hint: 514	1164	Variable 'x' has been eliminated by optimizer	morton.c
+hint: 534	1164	Variable 'x' has been eliminated by optimizer	morton.c
+hint: 597	1164	Variable 'mshifted' has been eliminated by optimizer	morton.c
+hint: 597	1164	Variable 'shift' has been eliminated by optimizer	morton.c
+hint: 621	1164	Variable 'mshifted' has been eliminated by optimizer	morton.c
+hint: 621	1164	Variable 'shift' has been eliminated by optimizer	morton.c
+hint: 685	1164	Variable 'm_shifted' has been eliminated by optimizer	morton.c
+hint: 685	1164	Variable 'shift' has been eliminated by optimizer	morton.c
+hint: 719	1164	Variable 'm_shifted' has been eliminated by optimizer	morton.c
+hint: 719	1164	Variable 'shift' has been eliminated by optimizer	morton.c
+hint: 1040	1164	Variable 'm_shifted' has been eliminated by optimizer	morton.c
+hint: 1174	1164	Variable 'x' has been eliminated by optimizer	morton.c
+hint: 1193	1164	Variable 'x' has been eliminated by optimizer	morton.c
+hint: 1382	1164	Variable 'shift_selector' has been eliminated by optimizer	morton.c
+hint: 1382	1164	Variable 'shiftback' has been eliminated by optimizer	morton.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 302	123	Compiled Successfully	cage_gen_evo.c
+hint: 111	1164	Variable 'e' has been eliminated by optimizer	cage_gen_evo.c
+hint: 126	1164	Variable 'x' has been eliminated by optimizer	cage_gen_evo.c
+hint: 224	1164	Variable 'restart' has been eliminated by optimizer	cage_gen_evo.c
+hint: 293	1164	Variable 'tmp' has been eliminated by optimizer	cage_gen_evo.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 197	123	Compiled Successfully	mikroKop_Capacity.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 102	123	Compiled Successfully	least_squares.c
+diagnostics: 0	127	All files Compiled in 150610 ms	 
+error: 2870	438	Call signature does not match the function definition signature 'Net_Ethernet_Intern_UserTCP'	__Lib_NetEthInternal.c
+error: 1052	438	Call signature does not match the function definition signature 'Net_Ethernet_Intern_UserUDP'	__Lib_NetEthInternal.c
+hint: 293	1004	Variable FIFObuffers has been declared, but not used	gc_events.c
+error: 0	102	Finished (with errors): 28 Oct 2021, 11:35:19	GCPICMX32.mcp32
